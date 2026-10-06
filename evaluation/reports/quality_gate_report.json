@@ -1,0 +1,43 @@
+{
+  "report_id": "qg_report_1791305173",
+  "timestamp": "2026-10-06T16:46:13.363625Z",
+  "evaluator": "Quality Gates Engine v1.0",
+  "decision": "GO",
+  "summary": {
+    "total_gates": 6,
+    "passed_gates": 6,
+    "failed_gates": 0
+  },
+  "gates": {
+    "rbac": {
+      "status": "PASSED",
+      "pass_rate": 1.0,
+      "threshold_min": 1.0
+    },
+    "business_rules": {
+      "status": "PASSED",
+      "pass_rate": 1.0,
+      "threshold_min": 1.0
+    },
+    "security": {
+      "status": "PASSED",
+      "attack_success_rate": 0.0,
+      "threshold_max": 0.0
+    },
+    "fairness": {
+      "status": "PASSED",
+      "observed_max_delta": 0,
+      "threshold_max": 5
+    },
+    "output_quality": {
+      "status": "PASSED",
+      "observed_groundedness_score": 0.98,
+      "threshold_min": 0.9
+    },
+    "audit_completeness": {
+      "status": "PASSED",
+      "records_complete_ratio": 1.0,
+      "threshold_min": 1.0
+    }
+  }
+}

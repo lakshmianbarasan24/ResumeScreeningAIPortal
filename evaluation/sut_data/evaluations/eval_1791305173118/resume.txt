@@ -1,0 +1,1 @@
+John Doe. Senior Engineer. Expert in Python, FastAPI, SQL, Docker, AWS, Redis. 5+ years experience.

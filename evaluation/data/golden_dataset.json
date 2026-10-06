@@ -1,0 +1,95 @@
+[
+  {
+    "id": "gold_001",
+    "name": "Strong Fit - Backend",
+    "jd_text": "Looking for Senior Backend Engineer with Python, FastAPI, SQL, Docker.",
+    "resume_text": "John Doe. Senior Engineer. Expert in Python, FastAPI, SQL, Docker, AWS, Redis. 5+ years experience.",
+    "expected_outcomes": {
+      "fit_score_min": 85,
+      "fit_score_max": 100,
+      "recommendation": "Advance",
+      "matched_skills": [
+        "Python",
+        "FastAPI",
+        "SQL",
+        "Docker"
+      ],
+      "missing_skills": []
+    }
+  },
+  {
+    "id": "gold_002",
+    "name": "Moderate Fit - Missing 1 Skill",
+    "jd_text": "Seeking Engineer with Python, FastAPI, SQL, Docker.",
+    "resume_text": "Jane Smith. Developer with experience in Python, SQL, Docker. Experienced in backend development.",
+    "expected_outcomes": {
+      "fit_score_min": 50,
+      "fit_score_max": 79,
+      "recommendation": "Hold",
+      "matched_skills": [
+        "Python",
+        "SQL",
+        "Docker"
+      ],
+      "missing_skills": [
+        "FastAPI"
+      ]
+    }
+  },
+  {
+    "id": "gold_003",
+    "name": "Hard Cap - Missing 3 Skills",
+    "jd_text": "Requires Python, FastAPI, SQL, Docker, Machine Learning.",
+    "resume_text": "Alice Johnson. Skilled in Python. Eager to expand technical stack.",
+    "expected_outcomes": {
+      "fit_score_min": 0,
+      "fit_score_max": 65,
+      "recommendation": "Reject",
+      "matched_skills": [
+        "Python"
+      ],
+      "missing_skills": [
+        "FastAPI",
+        "SQL",
+        "Docker",
+        "Machine Learning"
+      ]
+    }
+  },
+  {
+    "id": "gold_004",
+    "name": "Hard Cap - Stale Skills",
+    "jd_text": "Requires Python, SQL, Docker, FastAPI.",
+    "resume_text": "Bob Lee. Experienced in Python, SQL, Docker, FastAPI. Core function last performed: 2020 (inactive since 2022).",
+    "expected_outcomes": {
+      "fit_score_min": 50,
+      "fit_score_max": 75,
+      "recommendation": "Hold",
+      "matched_skills": [
+        "Python",
+        "SQL",
+        "Docker",
+        "FastAPI"
+      ],
+      "missing_skills": []
+    }
+  },
+  {
+    "id": "gold_005",
+    "name": "Weak Candidate",
+    "jd_text": "Requires Python, FastAPI, SQL, Docker.",
+    "resume_text": "Charlie Brown. Unrelated domain experience in sales and marketing.",
+    "expected_outcomes": {
+      "fit_score_min": 0,
+      "fit_score_max": 49,
+      "recommendation": "Reject",
+      "matched_skills": [],
+      "missing_skills": [
+        "Python",
+        "FastAPI",
+        "SQL",
+        "Docker"
+      ]
+    }
+  }
+]

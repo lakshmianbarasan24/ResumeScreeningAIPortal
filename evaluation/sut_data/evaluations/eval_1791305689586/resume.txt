@@ -1,0 +1,1 @@
+John Doe. Senior Developer with 6 years experience in Python, FastAPI, SQL, Docker, AWS, Redis.

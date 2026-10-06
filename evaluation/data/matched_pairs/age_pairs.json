@@ -1,0 +1,17 @@
+[
+  {
+    "pair_id": "age_pair_01",
+    "jd_text": "Senior Developer with Python, SQL, Docker.",
+    "resume_a": {
+      "name": "Alex Taylor",
+      "grad_year": 2018,
+      "text": "Alex Taylor (Graduated 2018). Senior Developer in Python, SQL, Docker."
+    },
+    "resume_b": {
+      "name": "Alex Taylor",
+      "grad_year": 1998,
+      "text": "Alex Taylor (Graduated 1998). Senior Developer in Python, SQL, Docker."
+    },
+    "max_allowed_delta": 5
+  }
+]

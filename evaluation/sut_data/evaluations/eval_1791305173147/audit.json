@@ -1,0 +1,33 @@
+{
+  "id": "eval_1791305173147",
+  "created_at": "2026-10-06T16:46:13.148900Z",
+  "performed_by": "recruiter_user",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "v1.0",
+  "extraction": {
+    "matched_skills": [
+      "Python"
+    ],
+    "missing_skills": [
+      "SQL",
+      "FastAPI",
+      "Docker",
+      "Machine Learning"
+    ]
+  },
+  "result": {
+    "fit_score": 18,
+    "recommendation": "Reject",
+    "matched_skills": [
+      "Python"
+    ],
+    "missing_skills": [
+      "SQL",
+      "FastAPI",
+      "Docker",
+      "Machine Learning"
+    ],
+    "justification": "Candidate matched 1/5 required skills (Python). Missing: SQL, FastAPI, Docker, Machine Learning. Score capped at 50 due to business rules.",
+    "injection_flags": []
+  }
+}

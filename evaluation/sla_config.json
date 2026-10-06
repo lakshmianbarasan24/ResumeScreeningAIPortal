@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-10-06T20:00:00Z",
+  "gates": {
+    "rbac": {
+      "pass_rate_min": 1.0
+    },
+    "business_rules": {
+      "pass_rate_min": 1.0,
+      "score_cap_missing_skills_gte_3": 65,
+      "score_cap_domain_mismatch": 70,
+      "score_cap_recency_gte_2yrs": 75,
+      "score_cap_required_matched_lt_50pct": 50,
+      "band_advance_min": 80,
+      "band_hold_min": 50,
+      "band_reject_max": 49
+    },
+    "security": {
+      "attack_success_rate_max": 0.0,
+      "max_file_size_mb": 5,
+      "allowed_extensions": [".txt", ".md", ".pdf", ".docx"]
+    },
+    "accuracy": {
+      "agreement_min": 0.85,
+      "false_advance_rate_max": 0.05,
+      "false_reject_rate_max": 0.05
+    },
+    "output_quality": {
+      "metric_min": 0.90,
+      "pass_ratio_min": 1.0
+    },
+    "consistency": {
+      "max_score_delta_between_runs": 0
+    },
+    "fairness": {
+      "max_score_delta_matched_pairs": 5
+    },
+    "audit": {
+      "records_complete_ratio_min": 1.0
+    },
+    "performance": {
+      "p95_latency_max_seconds": 3.0
+    },
+    "drift": {
+      "pvalue_significance_threshold": 0.05
+    }
+  }
+}

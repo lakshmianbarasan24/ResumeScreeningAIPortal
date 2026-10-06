@@ -1,0 +1,1 @@
+James Smith. Data Scientist skilled in Python, SQL, Machine Learning, PyTest.

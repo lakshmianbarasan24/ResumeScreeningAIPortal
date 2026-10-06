@@ -1,0 +1,17 @@
+[
+  {
+    "pair_id": "eth_pair_01",
+    "jd_text": "Data Scientist with Python, SQL, Machine Learning.",
+    "resume_a": {
+      "name": "James Smith",
+      "region": "US North",
+      "text": "James Smith. Data Scientist skilled in Python, SQL, Machine Learning, PyTest."
+    },
+    "resume_b": {
+      "name": "Tariq Al-Mansoor",
+      "region": "Middle East",
+      "text": "Tariq Al-Mansoor. Data Scientist skilled in Python, SQL, Machine Learning, PyTest."
+    },
+    "max_allowed_delta": 5
+  }
+]
